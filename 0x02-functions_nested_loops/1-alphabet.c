@@ -4,8 +4,10 @@
 
 
 	/**
-	 * print_alphabet - print all alphabet in lowercase
-	 */
+ 	* print_alphabet - Prints the lowercase alphabet using putchar
+ 	*
+ 	* Return: None
+ 	*/
 
 
 	void print_alphabet(void)
