@@ -1,22 +1,19 @@
-#include "main.h"
-	/**
-	 * main - print _putchar
-	 * Author Dorcas Mhuka
-	 * Return: 0
-	 */
-
-
+#include "holberton.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
-}
+	char *sh = "Holberton";
 
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
+}
