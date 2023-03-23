@@ -1,5 +1,3 @@
-nes (43 sloc)  776 Bytes
-
 #include "variadic_functions.h"
 
 /**
